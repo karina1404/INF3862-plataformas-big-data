@@ -1,0 +1,20 @@
+# Datos (no se suben al repositorio; ver datos/README.md)
+datos_proyecto_INF3862/
+datos_proyecto_INF3862.zip
+**/*.parquet
+**/mediciones/
+*.jsonl.gz
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.python-version
+uv.lock
+.pytest_cache/
+
+# Sistema / previews locales
+.DS_Store
+Thumbs.db
+*.tmp
+entregas/E1/anexos/_preview/
